@@ -2,3 +2,144 @@ canvas{
     display: block;
     margin: 0 auto;
 }
+
+body {
+	background-color: #41D0BD;
+}
+
+/*вернуться с поля игры в меню*/
+.back {
+	position: relative;
+	float: right;
+	color: white;
+	background-color: #58f55e;
+	margin: 0 auto;
+	font-size: 25px;
+	padding: 10px;
+	border-radius:13px;
+}
+
+.back:hover {
+	background-color: #1cff24;
+	font-size: 35px;
+}
+
+/*Начать игру заново*/
+.repeat {
+	position: relative;
+	float: left;
+	color: white;
+	background-color: #58f55e;
+	margin: 0 auto;
+	font-size: 25px;
+	padding: 10px;
+	border-radius:13px;
+}
+
+.repeat:hover {
+	background-color: #1cff24;
+	font-size: 35px;
+}
+
+
+/*Стили для страницы "Меню"*/
+.menu {
+	width: 680px;
+	height: 680px;
+	background: url(image/background.png);
+	margin: auto;
+	text-align: center;
+	border-radius: 3px;
+	font-family: monospace;
+	padding-top: 40px;
+	color: white;
+}
+
+.block {
+	width: 580px;
+	height: 100px;
+	background:#F3FB45;
+	margin:auto;
+	border-radius: 13px;
+	font-size: 18px;
+}
+
+.block:hover {
+	background-color:#f6ff1c;
+	font-size: 21px;
+}
+
+.mainText {
+	font-size: 20px;
+	padding-top: 2px;
+}
+
+.mainText a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+/*Стили для страницы "Настройки"*/
+.mainOptions {
+	width: 680px;
+	height: 680px;
+	background: url(image/background.png);
+	margin: auto;
+	text-align: center;
+	border-radius: 3px;
+	font-family: monospace;
+	padding-top: 40px;
+	color: white;
+}
+
+.buttonOptions {
+	width: 580px;
+	height: 100px;
+	background:#F3FB45;
+	margin:auto;
+	border-radius: 13px;
+	font-size: 18px;
+}
+
+.buttonOptions:hover {
+	background-color:#f6ff1c;
+	font-size: 21px;
+}
+
+.nameOptions {
+	font-size: 20px;
+	padding-top: 2px;
+}
+
+/*Стили для страницы "О нас"*/
+.mainAbout {
+	width: 680px;
+	height: 680px;
+	background: url(image/background.png);
+	margin: auto;
+	text-align: center;
+	border-radius: 3px;
+	font-family: monospace;
+	padding-top: 40px;
+	color: white;
+}
+
+.buttonAbout {
+	width: 580px;
+	height: 100px;
+	background:#F3FB45;
+	margin:auto;
+	border-radius: 13px;
+	font-size: 18px;
+}
+
+.buttonAbout:hover {
+	background-color:#f6ff1c;
+	font-size: 21px;
+}
+
+.nameAbout {
+	font-size: 20px;
+	padding-top: 2px;
+}

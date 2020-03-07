@@ -28,6 +28,7 @@ document.addEventListener("keydown", direction);
 
 let dir;
 
+//коды клавиш
 function direction(event) {
     if(event.keyCode == 37 && dir !="right")
     dir = "left";
